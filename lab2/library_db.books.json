@@ -1,0 +1,379 @@
+[{
+	"_id": {
+		"$oid": "6aa10ccfda21c786e8a00aa1"
+	},
+	"bookId": 301,
+	"title": "Мастер и Маргарита",
+	"isbn": "978-5-17-090163-6",
+	"year": 2015,
+	"genre": "роман",
+	"pages": 480,
+	"price": 2890,
+	"language": "ru",
+	"copies": 4,
+	"publisher": {
+		"name": "АСТ",
+		"city": "Москва",
+		"founded": 1990
+	},
+	"authors": [
+		"Михаил Булгаков"
+	],
+	"reviews": [
+		{
+			"readerId": 2,
+			"rating": 5,
+			"text": "Перечитываю каждые пару лет",
+			"date": {
+				"$date": "2025-11-20T00:00:00Z"
+			}
+		},
+		{
+			"readerId": 3,
+			"rating": 5,
+			"text": "Лучшее издание, хорошая бумага",
+			"date": {
+				"$date": "2026-01-09T00:00:00Z"
+			}
+		},
+		{
+			"readerId": 5,
+			"rating": 3,
+			"text": "Не зашло, слишком затянуто",
+			"date": {
+				"$date": "2026-07-28T00:00:00Z"
+			}
+		}
+	],
+	"readerIds": [
+		2,
+		3,
+		5
+	],
+	"publisherId": 1
+},
+{
+	"_id": {
+		"$oid": "6aa10ccfda21c786e8a00aa2"
+	},
+	"bookId": 302,
+	"title": "Преступление и наказание",
+	"isbn": "978-5-04-116374-8",
+	"year": 2021,
+	"genre": "роман",
+	"pages": 608,
+	"price": 2450,
+	"language": "ru",
+	"copies": 3,
+	"publisher": {
+		"name": "Эксмо",
+		"city": "Москва",
+		"founded": 1991
+	},
+	"authors": [
+		"Фёдор Достоевский"
+	],
+	"publisherId": 2
+},
+{
+	"_id": {
+		"$oid": "6aa10ccfda21c786e8a00aa3"
+	},
+	"bookId": 303,
+	"title": "Чистый код. Создание, анализ и рефакторинг",
+	"isbn": "978-5-4461-0960-9",
+	"year": 2019,
+	"genre": "программирование",
+	"pages": 464,
+	"price": 5990,
+	"language": "ru",
+	"copies": 2,
+	"publisher": {
+		"name": "Питер",
+		"city": "Санкт-Петербург",
+		"founded": 1991
+	},
+	"authors": [
+		"Роберт Мартин"
+	],
+	"reviews": [
+		{
+			"readerId": 1,
+			"rating": 5,
+			"text": "Обязательно к прочтению любому джуну",
+			"date": {
+				"$date": "2026-03-14T00:00:00Z"
+			}
+		},
+		{
+			"readerId": 4,
+			"rating": 4,
+			"text": "Примеры на Java, но идеи универсальные",
+			"date": {
+				"$date": "2026-06-02T00:00:00Z"
+			}
+		}
+	],
+	"readerIds": [
+		1,
+		4
+	],
+	"publisherId": 3
+},
+{
+	"_id": {
+		"$oid": "6aa10ccfda21c786e8a00aa4"
+	},
+	"bookId": 304,
+	"title": "Грокаем алгоритмы",
+	"isbn": "978-5-4461-1595-2",
+	"year": 2022,
+	"genre": "программирование",
+	"pages": 288,
+	"price": 4350,
+	"language": "ru",
+	"copies": 5,
+	"publisher": {
+		"name": "Питер",
+		"city": "Санкт-Петербург",
+		"founded": 1991
+	},
+	"authors": [
+		"Адитья Бхаргава"
+	],
+	"reviews": [
+		{
+			"readerId": 6,
+			"rating": 4,
+			"text": "Картинки помогают, но мало задач",
+			"date": {
+				"$date": "2026-08-15T00:00:00Z"
+			}
+		}
+	],
+	"readerIds": [
+		6
+	],
+	"publisherId": 3
+},
+{
+	"_id": {
+		"$oid": "6aa10ccfda21c786e8a00aa5"
+	},
+	"bookId": 305,
+	"title": "Путь Абая",
+	"isbn": "978-601-7913-13-4",
+	"year": 2018,
+	"genre": "роман",
+	"pages": 736,
+	"price": 6200,
+	"language": "kk",
+	"copies": 2,
+	"publisher": {
+		"name": "Жазушы",
+		"city": "Алматы",
+		"founded": 1934
+	},
+	"authors": [
+		"Мухтар Ауэзов"
+	],
+	"publisherId": 4
+},
+{
+	"_id": {
+		"$oid": "6aa10ccfda21c786e8a00aa6"
+	},
+	"bookId": 306,
+	"title": "Кочевники",
+	"isbn": "978-601-7913-20-2",
+	"year": 2019,
+	"genre": "исторический роман",
+	"pages": 928,
+	"price": 7800,
+	"language": "ru",
+	"copies": 1,
+	"publisher": {
+		"name": "Жазушы",
+		"city": "Алматы",
+		"founded": 1934
+	},
+	"authors": [
+		"Ильяс Есенберлин"
+	],
+	"readerIds": [
+		5
+	],
+	"publisherId": 4
+},
+{
+	"_id": {
+		"$oid": "6aa10ccfda21c786e8a00aa7"
+	},
+	"bookId": 307,
+	"title": "Гарри Поттер и философский камень",
+	"isbn": "978-5-389-07435-4",
+	"year": 2014,
+	"genre": "фэнтези",
+	"pages": 432,
+	"price": 3990,
+	"language": "ru",
+	"copies": 6,
+	"publisher": {
+		"name": "Махаон",
+		"city": "Москва",
+		"founded": 1993
+	},
+	"authors": [
+		"Джоан Роулинг"
+	],
+	"readerIds": [
+		2
+	],
+	"publisherId": 5
+},
+{
+	"_id": {
+		"$oid": "6aa10ccfda21c786e8a00aa8"
+	},
+	"bookId": 308,
+	"title": "Sapiens. Краткая история человечества",
+	"isbn": "978-5-906837-17-4",
+	"year": 2016,
+	"genre": "нон-фикшн",
+	"pages": 520,
+	"price": 5490,
+	"language": "ru",
+	"copies": 3,
+	"publisher": {
+		"name": "Синдбад",
+		"city": "Москва",
+		"founded": 2005
+	},
+	"authors": [
+		"Юваль Ной Харари"
+	],
+	"publisherId": 6
+},
+{
+	"_id": {
+		"$oid": "6aa10ccfda21c786e8a00aa9"
+	},
+	"bookId": 309,
+	"title": "Совершенный код",
+	"isbn": "978-5-7502-0064-1",
+	"year": 2017,
+	"genre": "программирование",
+	"pages": 896,
+	"price": 8900,
+	"language": "ru",
+	"copies": 1,
+	"publisher": {
+		"name": "Русская редакция",
+		"city": "Москва",
+		"founded": 1993
+	},
+	"authors": [
+		"Стив Макконнелл"
+	],
+	"publisherId": 7
+},
+{
+	"_id": {
+		"$oid": "6aa10ccfda21c786e8a00aaa"
+	},
+	"bookId": 310,
+	"title": "Три товарища",
+	"isbn": "978-5-17-080091-5",
+	"year": 2013,
+	"genre": "роман",
+	"pages": 384,
+	"price": 2190,
+	"language": "ru",
+	"copies": 4,
+	"publisher": {
+		"name": "АСТ",
+		"city": "Москва",
+		"founded": 1990
+	},
+	"authors": [
+		"Эрих Мария Ремарк"
+	],
+	"publisherId": 1
+},
+{
+	"_id": {
+		"$oid": "6aa10ccfda21c786e8a00aab"
+	},
+	"bookId": 311,
+	"title": "Изучаем Python. Программирование игр, визуализация данных, веб-приложения",
+	"isbn": "978-5-4461-1700-0",
+	"year": 2023,
+	"genre": "программирование",
+	"pages": 512,
+	"price": 6490,
+	"language": "ru",
+	"copies": 3,
+	"publisher": {
+		"name": "Питер",
+		"city": "Санкт-Петербург",
+		"founded": 1991
+	},
+	"authors": [
+		"Эрик Мэтиз"
+	],
+	"readerIds": [
+		4,
+		6
+	],
+	"publisherId": 3
+},
+{
+	"_id": {
+		"$oid": "6aa10ccfda21c786e8a00aac"
+	},
+	"bookId": 312,
+	"title": "Атлант расправил плечи",
+	"isbn": "978-5-9614-6543-9",
+	"year": 2020,
+	"genre": "роман",
+	"pages": 1136,
+	"price": 9800,
+	"language": "ru",
+	"copies": 2,
+	"publisher": {
+		"name": "Альпина Паблишер",
+		"city": "Москва",
+		"founded": 1998
+	},
+	"authors": [
+		"Айн Рэнд"
+	],
+	"publisherId": 8
+},
+{
+	"_id": {
+		"$oid": "6aa10ccfda21c786e8a00aad"
+	},
+	"bookId": 313,
+	"title": "Паттерны объектно-ориентированного проектирования",
+	"isbn": "978-5-4461-1400-9",
+	"year": 2020,
+	"genre": "программирование",
+	"pages": 448,
+	"price": 5290,
+	"language": "ru",
+	"copies": 2,
+	"publisher": {
+		"name": "Питер",
+		"city": "Санкт-Петербург",
+		"founded": 1991
+	},
+	"authors": [
+		"Эрих Гамма",
+		"Ричард Хелм",
+		"Ральф Джонсон",
+		"Джон Влиссидес"
+	],
+	"publisherId": 3
+}]
+

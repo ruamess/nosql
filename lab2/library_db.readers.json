@@ -1,0 +1,114 @@
+[{
+	"_id": 1,
+	"name": "Айдар Сериков",
+	"phone": "+7 701 254 18 73",
+	"email": "aidar.serikov@gmail.com",
+	"cardNumber": "LB-2023-0412",
+	"registeredAt": {
+		"$date": "2023-02-14T00:00:00Z"
+	},
+	"contact": {
+		"city": "Алматы",
+		"street": "Абая 52",
+		"apartment": 14
+	},
+	"favoriteGenres": [
+		"программирование",
+		"нон-фикшн"
+	]
+},
+{
+	"_id": 2,
+	"name": "Дана Нурланова",
+	"phone": "+7 777 810 44 02",
+	"email": "dana.nurlan@mail.ru",
+	"cardNumber": "LB-2023-0977",
+	"registeredAt": {
+		"$date": "2023-05-03T00:00:00Z"
+	},
+	"contact": {
+		"city": "Астана",
+		"street": "Кабанбай батыра 11",
+		"apartment": 203
+	},
+	"favoriteGenres": [
+		"роман",
+		"фэнтези"
+	]
+},
+{
+	"_id": 3,
+	"name": "Максим Петров",
+	"phone": "+7 916 402 77 19",
+	"email": "m.petrov@yandex.ru",
+	"cardNumber": "LB-2022-1830",
+	"registeredAt": {
+		"$date": "2022-11-20T00:00:00Z"
+	},
+	"contact": {
+		"city": "Москва",
+		"street": "Ленинский проспект 40",
+		"apartment": 88
+	},
+	"favoriteGenres": [
+		"программирование",
+		"роман"
+	]
+},
+{
+	"_id": 4,
+	"name": "Алия Касымова",
+	"phone": "+7 705 331 90 56",
+	"email": "aliya.k@kbtu.kz",
+	"cardNumber": "LB-2024-0055",
+	"registeredAt": {
+		"$date": "2024-01-09T00:00:00Z"
+	},
+	"contact": {
+		"city": "Алматы",
+		"street": "Толе би 59",
+		"apartment": 7
+	},
+	"favoriteGenres": [
+		"программирование",
+		"фэнтези"
+	]
+},
+{
+	"_id": 5,
+	"name": "Иван Соколов",
+	"phone": "+7 921 655 28 40",
+	"email": "sokolov.iv@gmail.com",
+	"cardNumber": "LB-2022-0301",
+	"registeredAt": {
+		"$date": "2022-06-01T00:00:00Z"
+	},
+	"contact": {
+		"city": "Санкт-Петербург",
+		"street": "Невский проспект 100",
+		"apartment": 12
+	},
+	"favoriteGenres": [
+		"нон-фикшн",
+		"исторический роман"
+	]
+},
+{
+	"_id": 6,
+	"name": "Мадина Турсунова",
+	"phone": "+7 702 776 30 84",
+	"email": "madina.t@mail.ru",
+	"cardNumber": "LB-2025-1204",
+	"registeredAt": {
+		"$date": "2025-09-02T00:00:00Z"
+	},
+	"contact": {
+		"city": "Караганда",
+		"street": "Бухар жырау 30",
+		"apartment": 45
+	},
+	"favoriteGenres": [
+		"программирование"
+	]
+}]
+

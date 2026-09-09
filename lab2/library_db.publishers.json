@@ -1,0 +1,57 @@
+[{
+	"_id": 1,
+	"name": "АСТ",
+	"city": "Москва",
+	"founded": 1990,
+	"website": "ast.ru"
+},
+{
+	"_id": 2,
+	"name": "Эксмо",
+	"city": "Москва",
+	"founded": 1991,
+	"website": "eksmo.ru"
+},
+{
+	"_id": 3,
+	"name": "Питер",
+	"city": "Санкт-Петербург",
+	"founded": 1991,
+	"website": "piter.com"
+},
+{
+	"_id": 4,
+	"name": "Жазушы",
+	"city": "Алматы",
+	"founded": 1934,
+	"website": "zhazushy.kz"
+},
+{
+	"_id": 5,
+	"name": "Махаон",
+	"city": "Москва",
+	"founded": 1993,
+	"website": "machaon.net"
+},
+{
+	"_id": 6,
+	"name": "Синдбад",
+	"city": "Москва",
+	"founded": 2005,
+	"website": "sindbadbooks.ru"
+},
+{
+	"_id": 7,
+	"name": "Русская редакция",
+	"city": "Москва",
+	"founded": 1993,
+	"website": "rusedit.ru"
+},
+{
+	"_id": 8,
+	"name": "Альпина Паблишер",
+	"city": "Москва",
+	"founded": 1998,
+	"website": "alpinabook.ru"
+}]
+

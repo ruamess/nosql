@@ -14,7 +14,6 @@
 
 ## Файлы
 
-- `seed.js` — создание базы и вставка данных
 - `queries.js` — 18 запросов из задания
 - `messenger_db.users.json` — экспорт коллекции users после всех запросов
 - `messenger_db.messages.json` — экспорт коллекции messages
@@ -81,7 +80,12 @@ senderId и receiverId ссылаются на users.userId.
 
 ## Исходные данные
 
-В users вставлено 11 документов (10 пользователей и один спам-аккаунт promo_kz_official, который потом удаляется в 17 задании), в messages — 25 сообщений. Все документы в seed.js.
+В users вставлено 11 документов (10 пользователей и один спам-аккаунт promo_kz_official, который потом удаляется в 17 задании), в messages — 25 сообщений. Итоговые данные в json-файлах, восстановить базу можно так:
+
+```
+mongoimport --db messenger_db --collection users --jsonArray --file messenger_db.users.json
+mongoimport --db messenger_db --collection messages --jsonArray --file messenger_db.messages.json
+```
 
 | userId | username | город | возраст | статус |
 |---|---|---|---|---|
