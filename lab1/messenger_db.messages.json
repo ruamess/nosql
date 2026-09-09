@@ -1,0 +1,628 @@
+[{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00aac"
+	},
+	"messageId": 50001,
+	"chatId": "dm_1001_1003",
+	"senderId": 1001,
+	"receiverId": 1003,
+	"text": "Макс, привет! Деплой на прод в пятницу переносим на понедельник?",
+	"sentAt": {
+		"$date": "2026-09-08T09:12:04Z"
+	},
+	"status": "read",
+	"edited": false,
+	"attachments": [],
+	"reactions": [],
+	"meta": {
+		"device": "ios",
+		"appVersion": "6.3.1",
+		"ip": "95.59.104.17"
+	}
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00aad"
+	},
+	"messageId": 50002,
+	"chatId": "dm_1001_1003",
+	"senderId": 1003,
+	"receiverId": 1001,
+	"text": "Привет. Да, давай на понедельник — в пятницу ещё helm-чарт не готов.",
+	"sentAt": {
+		"$date": "2026-09-08T09:14:37Z"
+	},
+	"status": "read",
+	"edited": false,
+	"attachments": [],
+	"reactions": [
+		{
+			"userId": 1001,
+			"emoji": "👍"
+		}
+	],
+	"meta": {
+		"device": "macos",
+		"appVersion": "6.3.0",
+		"ip": "77.88.55.242"
+	}
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00aae"
+	},
+	"messageId": 50003,
+	"chatId": "dm_1001_1003",
+	"senderId": 1003,
+	"receiverId": 1001,
+	"text": "Скинул values.yaml, глянь переменные для Mongo.",
+	"sentAt": {
+		"$date": "2026-09-08T09:15:50Z"
+	},
+	"status": "read",
+	"edited": false,
+	"attachments": [
+		{
+			"type": "file",
+			"name": "values.yaml",
+			"sizeKb": 4
+		}
+	],
+	"reactions": [],
+	"meta": {
+		"device": "macos",
+		"appVersion": "6.3.0",
+		"ip": "77.88.55.242"
+	}
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00aaf"
+	},
+	"messageId": 50004,
+	"chatId": "dm_1001_1002",
+	"senderId": 1002,
+	"receiverId": 1001,
+	"text": "Айдар, я обновила макеты чата — посмотри, пожалуйста, экран с вложениями.",
+	"sentAt": {
+		"$date": "2026-09-08T11:40:12Z"
+	},
+	"status": "read",
+	"edited": false,
+	"attachments": [
+		{
+			"type": "link",
+			"name": "figma.com/file/x7Hq2…",
+			"sizeKb": 0
+		}
+	],
+	"reactions": [],
+	"meta": {
+		"device": "windows",
+		"appVersion": "6.2.9",
+		"ip": "37.99.12.201"
+	}
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00ab0"
+	},
+	"messageId": 50005,
+	"chatId": "dm_1001_1002",
+	"senderId": 1001,
+	"receiverId": 1002,
+	"text": "Смотрю. Кнопка «Отправить» на тёмной теме почти не видна, остальное 🔥",
+	"sentAt": {
+		"$date": "2026-09-08T12:02:48Z"
+	},
+	"status": "read",
+	"edited": true,
+	"attachments": [
+		{
+			"type": "image",
+			"name": "IMG_2041.png",
+			"sizeKb": 812
+		}
+	],
+	"reactions": [
+		{
+			"userId": 1002,
+			"emoji": "❤️"
+		}
+	],
+	"meta": {
+		"device": "ios",
+		"appVersion": "6.3.1",
+		"ip": "95.59.104.17"
+	}
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00ab1"
+	},
+	"messageId": 50006,
+	"chatId": "dm_1002_1004",
+	"senderId": 1004,
+	"receiverId": 1002,
+	"text": "Дана, ты завтра на лекции по NoSQL будешь? Я не успела лабу доделать 😭",
+	"sentAt": {
+		"$date": "2026-09-08T19:25:33Z"
+	},
+	"status": "read",
+	"edited": false,
+	"attachments": [],
+	"reactions": [],
+	"meta": {
+		"device": "android",
+		"appVersion": "6.3.1",
+		"ip": "2.132.88.14"
+	}
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00ab2"
+	},
+	"messageId": 50007,
+	"chatId": "dm_1002_1004",
+	"senderId": 1002,
+	"receiverId": 1004,
+	"text": "Буду. Приходи пораньше, покажу как экспортить коллекцию в JSON.",
+	"sentAt": {
+		"$date": "2026-09-08T19:31:10Z"
+	},
+	"status": "read",
+	"edited": false,
+	"attachments": [],
+	"reactions": [
+		{
+			"userId": 1004,
+			"emoji": "🙏"
+		}
+	],
+	"meta": {
+		"device": "windows",
+		"appVersion": "6.2.9",
+		"ip": "37.99.12.201"
+	}
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00ab3"
+	},
+	"messageId": 50008,
+	"chatId": "dm_1003_1005",
+	"senderId": 1005,
+	"receiverId": 1003,
+	"text": "Максим, в 15:00 созвон по миграции на новый кластер, ссылка в календаре.",
+	"sentAt": {
+		"$date": "2026-09-09T07:58:21Z"
+	},
+	"status": "read",
+	"edited": false,
+	"attachments": [],
+	"reactions": [],
+	"meta": {
+		"device": "macos",
+		"appVersion": "6.3.1",
+		"ip": "178.66.31.90"
+	}
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00ab4"
+	},
+	"messageId": 50009,
+	"chatId": "dm_1003_1005",
+	"senderId": 1003,
+	"receiverId": 1005,
+	"text": "Ок, буду. Подготовлю план по репликасету.",
+	"sentAt": {
+		"$date": "2026-09-09T08:03:05Z"
+	},
+	"status": "delivered",
+	"edited": false,
+	"attachments": [],
+	"reactions": [],
+	"meta": {
+		"device": "android",
+		"appVersion": "6.3.1",
+		"ip": "77.88.55.242"
+	}
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00ab5"
+	},
+	"messageId": 50010,
+	"chatId": "dm_1005_1007",
+	"senderId": 1007,
+	"receiverId": 1005,
+	"text": "Иван, можно перенести 1:1 на четверг? Сегодня релиз у фронта.",
+	"sentAt": {
+		"$date": "2026-09-09T08:41:59Z"
+	},
+	"status": "read",
+	"edited": false,
+	"attachments": [],
+	"reactions": [],
+	"meta": {
+		"device": "macos",
+		"appVersion": "6.3.0",
+		"ip": "5.18.204.77"
+	}
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00ab6"
+	},
+	"messageId": 50011,
+	"chatId": "dm_1005_1007",
+	"senderId": 1005,
+	"receiverId": 1007,
+	"text": "Без проблем, четверг 11:00.",
+	"sentAt": {
+		"$date": "2026-09-09T08:45:12Z"
+	},
+	"status": "read",
+	"edited": false,
+	"attachments": [],
+	"reactions": [
+		{
+			"userId": 1007,
+			"emoji": "👌"
+		}
+	],
+	"meta": {
+		"device": "macos",
+		"appVersion": "6.3.1",
+		"ip": "178.66.31.90"
+	}
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00ab7"
+	},
+	"messageId": 50012,
+	"chatId": "dm_1004_1008",
+	"senderId": 1008,
+	"receiverId": 1004,
+	"text": "Алия, привет! Ты писала что учишься на IS — какие предметы на 1 курсе самые сложные?",
+	"sentAt": {
+		"$date": "2026-09-08T21:10:40Z"
+	},
+	"status": "read",
+	"edited": false,
+	"attachments": [],
+	"reactions": [],
+	"meta": {
+		"device": "android",
+		"appVersion": "6.3.1",
+		"ip": "92.46.60.113"
+	}
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00ab8"
+	},
+	"messageId": 50013,
+	"chatId": "dm_1004_1008",
+	"senderId": 1004,
+	"receiverId": 1008,
+	"text": "Привет) Матан и дискретка. Программирование нормально, если не запускать.",
+	"sentAt": {
+		"$date": "2026-09-08T21:18:02Z"
+	},
+	"status": "read",
+	"edited": false,
+	"attachments": [],
+	"reactions": [
+		{
+			"userId": 1008,
+			"emoji": "😂"
+		}
+	],
+	"meta": {
+		"device": "android",
+		"appVersion": "6.3.1",
+		"ip": "2.132.88.14"
+	}
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00ab9"
+	},
+	"messageId": 50014,
+	"chatId": "dm_1004_1008",
+	"senderId": 1008,
+	"receiverId": 1004,
+	"text": "Спасибо! Скину тебе потом свои конспекты по SQL, вдруг пригодятся.",
+	"sentAt": {
+		"$date": "2026-09-08T21:20:55Z"
+	},
+	"status": "read",
+	"edited": false,
+	"attachments": [
+		{
+			"type": "file",
+			"name": "sql_notes.pdf",
+			"sizeKb": 2310
+		}
+	],
+	"reactions": [],
+	"meta": {
+		"device": "android",
+		"appVersion": "6.3.1",
+		"ip": "92.46.60.113"
+	}
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00aba"
+	},
+	"messageId": 50015,
+	"chatId": "dm_1006_1010",
+	"senderId": 1006,
+	"receiverId": 1010,
+	"text": "Камила, отправила тебе ТЗ на лендинг, посмотри до вечера?",
+	"sentAt": {
+		"$date": "2026-09-07T15:02:11Z"
+	},
+	"status": "read",
+	"edited": false,
+	"attachments": [
+		{
+			"type": "file",
+			"name": "TZ_landing_v2.docx",
+			"sizeKb": 148
+		}
+	],
+	"reactions": [],
+	"meta": {
+		"device": "windows",
+		"appVersion": "6.2.8",
+		"ip": "95.56.140.9"
+	}
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00abb"
+	},
+	"messageId": 50016,
+	"chatId": "dm_1006_1010",
+	"senderId": 1010,
+	"receiverId": 1006,
+	"text": "Посмотрела. Добавь acceptance criteria для формы, иначе тестировать нечего.",
+	"sentAt": {
+		"$date": "2026-09-07T17:44:29Z"
+	},
+	"status": "read",
+	"edited": false,
+	"attachments": [],
+	"reactions": [
+		{
+			"userId": 1006,
+			"emoji": "✅"
+		}
+	],
+	"meta": {
+		"device": "windows",
+		"appVersion": "6.3.1",
+		"ip": "37.99.4.66"
+	}
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00abc"
+	},
+	"messageId": 50017,
+	"chatId": "dm_1007_1009",
+	"senderId": 1009,
+	"receiverId": 1007,
+	"text": "Артём, на iOS 19 сломался deep link из пуша. У тебя на вебе такое было?",
+	"sentAt": {
+		"$date": "2026-09-09T09:30:17Z"
+	},
+	"status": "read",
+	"edited": false,
+	"attachments": [
+		{
+			"type": "image",
+			"name": "Screenshot_2026-09-09.png",
+			"sizeKb": 1024
+		}
+	],
+	"reactions": [],
+	"meta": {
+		"device": "ios",
+		"appVersion": "6.3.1",
+		"ip": "31.173.85.140"
+	}
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00abd"
+	},
+	"messageId": 50018,
+	"chatId": "dm_1007_1009",
+	"senderId": 1007,
+	"receiverId": 1009,
+	"text": "Нет, у нас всё через universal links. Проверь, что apple-app-site-association отдаётся без редиректа.",
+	"sentAt": {
+		"$date": "2026-09-09T09:36:48Z"
+	},
+	"status": "read",
+	"edited": true,
+	"attachments": [],
+	"reactions": [
+		{
+			"userId": 1009,
+			"emoji": "🔥"
+		}
+	],
+	"meta": {
+		"device": "macos",
+		"appVersion": "6.3.0",
+		"ip": "5.18.204.77"
+	}
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00abe"
+	},
+	"messageId": 50019,
+	"chatId": "dm_1003_1010",
+	"senderId": 1010,
+	"receiverId": 1003,
+	"text": "Макс, автотесты на стейдже упали после твоего деплоя — 12 красных. Логи в Allure.",
+	"sentAt": {
+		"$date": "2026-09-09T10:05:33Z"
+	},
+	"status": "read",
+	"edited": false,
+	"attachments": [
+		{
+			"type": "link",
+			"name": "allure.halyk.internal/report/8842",
+			"sizeKb": 0
+		}
+	],
+	"reactions": [],
+	"meta": {
+		"device": "windows",
+		"appVersion": "6.3.1",
+		"ip": "37.99.4.66"
+	}
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00abf"
+	},
+	"messageId": 50020,
+	"chatId": "dm_1003_1010",
+	"senderId": 1003,
+	"receiverId": 1010,
+	"text": "Вижу, откатил. Это из-за смены порта Mongo, через 10 минут перевыкачу.",
+	"sentAt": {
+		"$date": "2026-09-09T10:11:02Z"
+	},
+	"status": "delivered",
+	"edited": false,
+	"attachments": [],
+	"reactions": [],
+	"meta": {
+		"device": "macos",
+		"appVersion": "6.3.0",
+		"ip": "77.88.55.242"
+	}
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00ac0"
+	},
+	"messageId": 50021,
+	"chatId": "dm_1001_1005",
+	"senderId": 1001,
+	"receiverId": 1005,
+	"text": "Иван, спасибо за фидбек по архитектуре. Разбил сервис на два, как ты советовал.",
+	"sentAt": {
+		"$date": "2026-09-09T10:20:44Z"
+	},
+	"status": "delivered",
+	"edited": false,
+	"attachments": [],
+	"reactions": [],
+	"meta": {
+		"device": "ios",
+		"appVersion": "6.3.1",
+		"ip": "95.59.104.17"
+	}
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00ac1"
+	},
+	"messageId": 50022,
+	"chatId": "dm_1001_1008",
+	"senderId": 1008,
+	"receiverId": 1001,
+	"text": "Айдар, здравствуйте! Можно задать пару вопросов про стажировку в Kaspi?",
+	"sentAt": {
+		"$date": "2026-09-09T10:33:15Z"
+	},
+	"status": "sent",
+	"edited": false,
+	"attachments": [],
+	"reactions": [],
+	"meta": {
+		"device": "android",
+		"appVersion": "6.3.1",
+		"ip": "92.46.60.113"
+	}
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00ac2"
+	},
+	"messageId": 50023,
+	"chatId": "dm_1002_1006",
+	"senderId": 1006,
+	"receiverId": 1002,
+	"text": "Дана, привет! Нужен баннер для сторис 1080x1920 к пятнице, возьмёшься?",
+	"sentAt": {
+		"$date": "2026-09-09T10:36:00Z"
+	},
+	"status": "sent",
+	"edited": false,
+	"attachments": [],
+	"reactions": [],
+	"meta": {
+		"device": "android",
+		"appVersion": "6.3.1",
+		"ip": "95.56.140.9"
+	}
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00ac3"
+	},
+	"messageId": 50024,
+	"chatId": "dm_1009_1010",
+	"senderId": 1009,
+	"receiverId": 1010,
+	"text": "Камила, тестовый билд 2.14 (417) залил в TestFlight.",
+	"sentAt": {
+		"$date": "2026-09-09T10:39:27Z"
+	},
+	"status": "delivered",
+	"edited": false,
+	"attachments": [],
+	"reactions": [],
+	"meta": {
+		"device": "macos",
+		"appVersion": "6.3.1",
+		"ip": "31.173.85.140"
+	}
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00ac4"
+	},
+	"messageId": 50025,
+	"chatId": "dm_1003_1007",
+	"senderId": 1003,
+	"receiverId": 1007,
+	"text": "Тём, кофе в 13:00 у входа?",
+	"sentAt": {
+		"$date": "2026-09-09T10:41:03Z"
+	},
+	"status": "sent",
+	"edited": false,
+	"attachments": [],
+	"reactions": [],
+	"meta": {
+		"device": "android",
+		"appVersion": "6.3.1",
+		"ip": "77.88.55.242"
+	}
+}]
+

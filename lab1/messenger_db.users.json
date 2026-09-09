@@ -1,0 +1,424 @@
+[{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00aa1"
+	},
+	"userId": 1001,
+	"username": "aidar_serikov",
+	"firstName": "Айдар",
+	"lastName": "Сериков",
+	"phone": "+7 701 254 18 73",
+	"age": 24,
+	"city": "Алматы",
+	"isPremium": true,
+	"contacts": [
+		1002,
+		1003,
+		1005,
+		1008
+	],
+	"interests": [
+		"backend",
+		"mongodb",
+		"футбол",
+		"go"
+	],
+	"profile": {
+		"bio": "Backend-разработчик в Kaspi.kz. Пишу на Go и Python.",
+		"status": "online",
+		"lastSeen": {
+			"$date": "2026-09-09T10:42:15Z"
+		},
+		"avatar": "https://cdn.msgr.kz/avatars/aidar_serikov.jpg"
+	},
+	"settings": {
+		"language": "ru",
+		"theme": "dark",
+		"notifications": true,
+		"privacy": "contacts"
+	},
+	"registeredAt": {
+		"$date": "2023-02-14T08:31:00Z"
+	},
+	"messagesSent": 4812
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00aa2"
+	},
+	"userId": 1002,
+	"username": "dana.nurlan",
+	"firstName": "Дана",
+	"lastName": "Нурланова",
+	"phone": "+7 777 810 44 02",
+	"age": 22,
+	"city": "Алматы",
+	"isPremium": false,
+	"contacts": [
+		1001,
+		1004,
+		1006
+	],
+	"interests": [
+		"ux-дизайн",
+		"figma",
+		"путешествия",
+		"йога"
+	],
+	"profile": {
+		"bio": "Product-дизайнер. Люблю аккуратные интерфейсы и горы.",
+		"status": "offline",
+		"lastSeen": {
+			"$date": "2026-09-08T22:17:44Z"
+		},
+		"avatar": "https://cdn.msgr.kz/avatars/dana_nurlan.jpg"
+	},
+	"settings": {
+		"language": "ru",
+		"theme": "light",
+		"notifications": true,
+		"privacy": "everyone"
+	},
+	"registeredAt": {
+		"$date": "2023-05-03T14:05:12Z"
+	},
+	"messagesSent": 2764
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00aa3"
+	},
+	"userId": 1003,
+	"username": "maks_petrov",
+	"firstName": "Максим",
+	"lastName": "Петров",
+	"phone": "+7 916 402 77 19",
+	"age": 29,
+	"city": "Москва",
+	"isPremium": true,
+	"contacts": [
+		1001,
+		1005,
+		1007,
+		1009,
+		1010
+	],
+	"interests": [
+		"devops",
+		"kubernetes",
+		"велосипед",
+		"кофе"
+	],
+	"profile": {
+		"bio": "DevOps-инженер. Kubernetes, Terraform, немного Rust.",
+		"status": "online",
+		"lastSeen": {
+			"$date": "2026-09-09T10:40:02Z"
+		},
+		"avatar": "https://cdn.msgr.kz/avatars/maks_petrov.jpg"
+	},
+	"settings": {
+		"language": "ru",
+		"theme": "dark",
+		"notifications": false,
+		"privacy": "contacts"
+	},
+	"registeredAt": {
+		"$date": "2022-11-20T19:48:30Z"
+	},
+	"messagesSent": 9130
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00aa4"
+	},
+	"userId": 1004,
+	"username": "aliya.k",
+	"firstName": "Алия",
+	"lastName": "Касымова",
+	"phone": "+7 705 331 90 56",
+	"age": 20,
+	"city": "Алматы",
+	"isPremium": false,
+	"contacts": [
+		1002,
+		1006,
+		1008
+	],
+	"interests": [
+		"студент",
+		"python",
+		"аниме",
+		"k-pop",
+		"mongodb"
+	],
+	"profile": {
+		"bio": "Студентка 3 курса КБТУ, направление IS.",
+		"status": "offline",
+		"lastSeen": {
+			"$date": "2026-09-09T07:55:10Z"
+		},
+		"avatar": "https://cdn.msgr.kz/avatars/aliya_k.jpg"
+	},
+	"settings": {
+		"language": "kk",
+		"theme": "light",
+		"notifications": true,
+		"privacy": "everyone"
+	},
+	"registeredAt": {
+		"$date": "2024-01-09T11:12:45Z"
+	},
+	"messagesSent": 1355
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00aa5"
+	},
+	"userId": 1005,
+	"username": "ivan_sokolov",
+	"firstName": "Иван",
+	"lastName": "Соколов",
+	"phone": "+7 921 655 28 40",
+	"age": 35,
+	"city": "Санкт-Петербург",
+	"isPremium": true,
+	"contacts": [
+		1001,
+		1003,
+		1007
+	],
+	"interests": [
+		"архитектура",
+		"java",
+		"шахматы",
+		"фотография"
+	],
+	"profile": {
+		"bio": "Тимлид в Яндексе. Пишу про архитектуру и менторство.",
+		"status": "away",
+		"lastSeen": {
+			"$date": "2026-09-09T09:12:33Z"
+		},
+		"avatar": "https://cdn.msgr.kz/avatars/ivan_sokolov.jpg"
+	},
+	"settings": {
+		"language": "ru",
+		"theme": "dark",
+		"notifications": true,
+		"privacy": "contacts"
+	},
+	"registeredAt": {
+		"$date": "2022-06-01T09:00:00Z"
+	},
+	"messagesSent": 12488
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00aa6"
+	},
+	"userId": 1006,
+	"username": "zhanna_b",
+	"firstName": "Жанна",
+	"lastName": "Бекова",
+	"phone": "+7 747 218 63 15",
+	"age": 27,
+	"city": "Павлодар",
+	"isPremium": false,
+	"contacts": [
+		1002,
+		1004,
+		1010
+	],
+	"interests": [
+		"маркетинг",
+		"smm",
+		"бег",
+		"книги"
+	],
+	"profile": {
+		"bio": "SMM-менеджер, пробегаю 10 км по утрам.",
+		"status": "inactive",
+		"lastSeen": {
+			"$date": "2026-09-07T18:30:21Z"
+		},
+		"avatar": "https://cdn.msgr.kz/avatars/zhanna_b.jpg"
+	},
+	"settings": {
+		"language": "ru",
+		"theme": "light",
+		"notifications": true,
+		"privacy": "everyone"
+	},
+	"registeredAt": {
+		"$date": "2023-08-22T16:44:08Z"
+	},
+	"messagesSent": 3207
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00aa7"
+	},
+	"userId": 1007,
+	"username": "artem.volkov",
+	"firstName": "Артём",
+	"lastName": "Волков",
+	"phone": "+7 903 118 45 92",
+	"age": 31,
+	"city": "Москва",
+	"isPremium": false,
+	"contacts": [
+		1003,
+		1005,
+		1009
+	],
+	"interests": [
+		"frontend",
+		"react",
+		"typescript",
+		"гитара"
+	],
+	"profile": {
+		"bio": "Frontend в Тинькофф. React, TypeScript, иногда Svelte.",
+		"status": "online",
+		"lastSeen": {
+			"$date": "2026-09-09T10:38:57Z"
+		},
+		"avatar": "https://cdn.msgr.kz/avatars/artem_volkov.jpg"
+	},
+	"settings": {
+		"language": "ru",
+		"theme": "dark",
+		"notifications": true,
+		"privacy": "contacts"
+	},
+	"registeredAt": {
+		"$date": "2023-03-17T12:26:51Z"
+	},
+	"messagesSent": 6021
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00aa8"
+	},
+	"userId": 1008,
+	"username": "madina_t",
+	"firstName": "Мадина",
+	"lastName": "Турсунова",
+	"phone": "+7 702 776 30 84",
+	"age": 19,
+	"city": "Караганда",
+	"isPremium": false,
+	"contacts": [
+		1001,
+		1004
+	],
+	"interests": [
+		"студент",
+		"data science",
+		"рисование",
+		"сериалы"
+	],
+	"profile": {
+		"bio": "Первокурсница, учу Python и SQL. Мечтаю о Data Science.",
+		"status": "offline",
+		"lastSeen": {
+			"$date": "2026-09-08T23:59:03Z"
+		},
+		"avatar": "https://cdn.msgr.kz/avatars/madina_t.jpg"
+	},
+	"settings": {
+		"language": "kk",
+		"theme": "light",
+		"notifications": true,
+		"privacy": "everyone"
+	},
+	"registeredAt": {
+		"$date": "2025-09-02T10:15:00Z"
+	},
+	"messagesSent": 418
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00aa9"
+	},
+	"userId": 1009,
+	"username": "sergey_kim",
+	"firstName": "Сергей",
+	"lastName": "Ким",
+	"phone": "+7 977 540 12 68",
+	"age": 41,
+	"city": "Москва",
+	"isPremium": true,
+	"contacts": [
+		1003,
+		1007,
+		1010
+	],
+	"interests": [
+		"мобильная разработка",
+		"swift",
+		"рыбалка",
+		"автомобили"
+	],
+	"profile": {
+		"bio": "iOS-разработчик с 2011 года. Swift, SwiftUI.",
+		"status": "away",
+		"lastSeen": {
+			"$date": "2026-09-09T08:20:45Z"
+		},
+		"avatar": "https://cdn.msgr.kz/avatars/sergey_kim.jpg"
+	},
+	"settings": {
+		"language": "en",
+		"theme": "dark",
+		"notifications": false,
+		"privacy": "nobody"
+	},
+	"registeredAt": {
+		"$date": "2022-04-11T07:37:19Z"
+	},
+	"messagesSent": 7754
+},
+{
+	"_id": {
+		"$oid": "6aa10abdf82e36c593a00aaa"
+	},
+	"userId": 1010,
+	"username": "kamila.ab",
+	"firstName": "Камила",
+	"lastName": "Абдуллаева",
+	"phone": "+7 778 902 51 30",
+	"age": 25,
+	"city": "Астана",
+	"isPremium": false,
+	"contacts": [
+		1003,
+		1006,
+		1009
+	],
+	"interests": [
+		"qa",
+		"автотесты",
+		"playwright",
+		"кулинария"
+	],
+	"profile": {
+		"bio": "QA Automation в Halyk Bank. Playwright, Python.",
+		"status": "online",
+		"lastSeen": {
+			"$date": "2026-09-09T10:41:30Z"
+		},
+		"avatar": "https://cdn.msgr.kz/avatars/kamila_ab.jpg"
+	},
+	"settings": {
+		"language": "ru",
+		"theme": "light",
+		"notifications": true,
+		"privacy": "contacts"
+	},
+	"registeredAt": {
+		"$date": "2024-06-28T13:03:22Z"
+	},
+	"messagesSent": 1987
+}]
+
