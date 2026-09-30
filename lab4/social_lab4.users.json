@@ -1,0 +1,81 @@
+[{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00aa1"
+	},
+	"userId": 1001,
+	"username": "aidar_serikov",
+	"name": "Айдар Сериков",
+	"city": "Алматы",
+	"followers": 1240
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00aa2"
+	},
+	"userId": 1002,
+	"username": "dana.nurlan",
+	"name": "Дана Нурланова",
+	"city": "Астана",
+	"followers": 3580
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00aa3"
+	},
+	"userId": 1003,
+	"username": "maks_petrov",
+	"name": "Максим Петров",
+	"city": "Москва",
+	"followers": 2115
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00aa4"
+	},
+	"userId": 1004,
+	"username": "aliya.k",
+	"name": "Алия Касымова",
+	"city": "Алматы",
+	"followers": 640
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00aa5"
+	},
+	"userId": 1005,
+	"username": "ivan_sokolov",
+	"name": "Иван Соколов",
+	"city": "Санкт-Петербург",
+	"followers": 8790
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00aa6"
+	},
+	"userId": 1006,
+	"username": "zhanna_b",
+	"name": "Жанна Бекова",
+	"city": "Павлодар",
+	"followers": 4302
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00aa7"
+	},
+	"userId": 1007,
+	"username": "artem.volkov",
+	"name": "Артём Волков",
+	"city": "Москва",
+	"followers": 1876
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00aa8"
+	},
+	"userId": 1008,
+	"username": "madina_t",
+	"name": "Мадина Турсунова",
+	"city": "Караганда",
+	"followers": 215
+}]
+

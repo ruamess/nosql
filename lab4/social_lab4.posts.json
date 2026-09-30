@@ -1,0 +1,591 @@
+[{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00aa9"
+	},
+	"postId": 1,
+	"authorId": 1003,
+	"type": "text",
+	"text": "Перевели прод на новый кластер k8s, простой 4 минуты вместо обещанных 30",
+	"likes": 184,
+	"views": 2310,
+	"tags": [
+		"devops",
+		"работа",
+		"it"
+	],
+	"createdAt": {
+		"$date": "2026-08-03T09:15:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00aaa"
+	},
+	"postId": 2,
+	"authorId": 1002,
+	"type": "photo",
+	"text": "Кольсай с утра, ради такого стоило вставать в 5",
+	"likes": 412,
+	"views": 5120,
+	"tags": [
+		"путешествия",
+		"фото",
+		"горы"
+	],
+	"createdAt": {
+		"$date": "2026-08-04T06:40:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00aab"
+	},
+	"postId": 3,
+	"authorId": 1005,
+	"type": "link",
+	"text": "Написал статью про то, как мы делили монолит. Ссылка внутри",
+	"likes": 530,
+	"views": 9870,
+	"tags": [
+		"it",
+		"архитектура",
+		"работа"
+	],
+	"createdAt": {
+		"$date": "2026-08-05T12:00:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00aac"
+	},
+	"postId": 4,
+	"authorId": 1001,
+	"type": "text",
+	"text": "Кто-нибудь использует MongoDB change streams в проде? Поделитесь опытом",
+	"likes": 67,
+	"views": 1430,
+	"tags": [
+		"mongodb",
+		"it"
+	],
+	"createdAt": {
+		"$date": "2026-08-06T15:22:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00aad"
+	},
+	"postId": 5,
+	"authorId": 1006,
+	"type": "photo",
+	"text": "10 км до работы. Павлодар, набережная",
+	"likes": 298,
+	"views": 3640,
+	"tags": [
+		"спорт",
+		"бег",
+		"фото"
+	],
+	"createdAt": {
+		"$date": "2026-08-08T04:55:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00aae"
+	},
+	"postId": 6,
+	"authorId": 1004,
+	"type": "text",
+	"text": "Пересдача по матану закрыта, я свободна",
+	"likes": 95,
+	"views": 870,
+	"tags": [
+		"учеба",
+		"юмор"
+	],
+	"createdAt": {
+		"$date": "2026-08-10T13:30:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00aaf"
+	},
+	"postId": 7,
+	"authorId": 1007,
+	"type": "video",
+	"text": "Записал разбор нового хука use в React 19",
+	"likes": 341,
+	"views": 6200,
+	"tags": [
+		"frontend",
+		"it",
+		"react"
+	],
+	"createdAt": {
+		"$date": "2026-08-11T18:05:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ab0"
+	},
+	"postId": 8,
+	"authorId": 1003,
+	"type": "photo",
+	"text": "Велозаезд Москва - Коломна, 110 км",
+	"likes": 226,
+	"views": 2980,
+	"tags": [
+		"спорт",
+		"фото",
+		"велосипед"
+	],
+	"createdAt": {
+		"$date": "2026-08-12T17:45:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ab1"
+	},
+	"postId": 9,
+	"authorId": 1008,
+	"type": "text",
+	"text": "Первый день в универе. Потерялась в главном корпусе два раза",
+	"likes": 48,
+	"views": 390,
+	"tags": [
+		"учеба",
+		"юмор"
+	],
+	"createdAt": {
+		"$date": "2026-08-14T10:10:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ab2"
+	},
+	"postId": 10,
+	"authorId": 1002,
+	"type": "photo",
+	"text": "Новый макет онбординга, как вам?",
+	"likes": 157,
+	"views": 2240,
+	"tags": [
+		"дизайн",
+		"работа"
+	],
+	"createdAt": {
+		"$date": "2026-08-15T11:20:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ab3"
+	},
+	"postId": 11,
+	"authorId": 1005,
+	"type": "text",
+	"text": "Джуны, читайте код коллег. Это быстрее любого курса",
+	"likes": 742,
+	"views": 12400,
+	"tags": [
+		"it",
+		"работа",
+		"карьера"
+	],
+	"createdAt": {
+		"$date": "2026-08-17T08:00:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ab4"
+	},
+	"postId": 12,
+	"authorId": 1001,
+	"type": "photo",
+	"text": "Медеу вечером",
+	"likes": 203,
+	"views": 2150,
+	"tags": [
+		"алматы",
+		"фото",
+		"горы"
+	],
+	"createdAt": {
+		"$date": "2026-08-18T16:35:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ab5"
+	},
+	"postId": 13,
+	"authorId": 1006,
+	"type": "link",
+	"text": "Собрала подборку бесплатных сервисов для SMM",
+	"likes": 389,
+	"views": 7310,
+	"tags": [
+		"маркетинг",
+		"работа"
+	],
+	"createdAt": {
+		"$date": "2026-08-19T09:50:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ab6"
+	},
+	"postId": 14,
+	"authorId": 1003,
+	"type": "text",
+	"text": "Terraform state опять разъехался. Пятница",
+	"likes": 119,
+	"views": 1560,
+	"tags": [
+		"devops",
+		"юмор",
+		"it"
+	],
+	"createdAt": {
+		"$date": "2026-08-21T14:12:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ab7"
+	},
+	"postId": 15,
+	"authorId": 1007,
+	"type": "photo",
+	"text": "Купил наконец Telecaster",
+	"likes": 176,
+	"views": 1890,
+	"tags": [
+		"музыка",
+		"фото"
+	],
+	"createdAt": {
+		"$date": "2026-08-22T19:40:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ab8"
+	},
+	"postId": 16,
+	"authorId": 1004,
+	"type": "photo",
+	"text": "Кок-Тобе, закат",
+	"likes": 134,
+	"views": 1120,
+	"tags": [
+		"алматы",
+		"фото"
+	],
+	"createdAt": {
+		"$date": "2026-08-24T15:58:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ab9"
+	},
+	"postId": 17,
+	"authorId": 1005,
+	"type": "video",
+	"text": "Запись доклада с митапа про менторство",
+	"likes": 465,
+	"views": 8050,
+	"tags": [
+		"it",
+		"карьера"
+	],
+	"createdAt": {
+		"$date": "2026-08-25T10:30:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00aba"
+	},
+	"postId": 18,
+	"authorId": 1002,
+	"type": "text",
+	"text": "Figma опять поменяла интерфейс, ищу кнопку экспорта уже 10 минут",
+	"likes": 288,
+	"views": 3470,
+	"tags": [
+		"дизайн",
+		"юмор"
+	],
+	"createdAt": {
+		"$date": "2026-08-27T07:25:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00abb"
+	},
+	"postId": 19,
+	"authorId": 1001,
+	"type": "link",
+	"text": "Хорошая статья про индексы в MongoDB и правило ESR",
+	"likes": 91,
+	"views": 1980,
+	"tags": [
+		"mongodb",
+		"it"
+	],
+	"createdAt": {
+		"$date": "2026-08-28T12:48:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00abc"
+	},
+	"postId": 20,
+	"authorId": 1008,
+	"type": "photo",
+	"text": "Мой первый график в matplotlib, не судите строго",
+	"likes": 73,
+	"views": 510,
+	"tags": [
+		"учеба",
+		"python",
+		"it"
+	],
+	"createdAt": {
+		"$date": "2026-08-30T20:15:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00abd"
+	},
+	"postId": 21,
+	"authorId": 1003,
+	"type": "link",
+	"text": "Выложил helm-чарты для MongoDB replica set на гитхаб",
+	"likes": 257,
+	"views": 4120,
+	"tags": [
+		"devops",
+		"mongodb",
+		"it"
+	],
+	"createdAt": {
+		"$date": "2026-09-01T08:33:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00abe"
+	},
+	"postId": 22,
+	"authorId": 1006,
+	"type": "photo",
+	"text": "Полумарафон в Астане, 1:52:40",
+	"likes": 521,
+	"views": 6480,
+	"tags": [
+		"спорт",
+		"бег",
+		"фото"
+	],
+	"createdAt": {
+		"$date": "2026-09-02T09:05:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00abf"
+	},
+	"postId": 23,
+	"authorId": 1007,
+	"type": "text",
+	"text": "TypeScript 6 вышел. Обновляться пока не будем",
+	"likes": 210,
+	"views": 3350,
+	"tags": [
+		"frontend",
+		"it"
+	],
+	"createdAt": {
+		"$date": "2026-09-03T13:17:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ac0"
+	},
+	"postId": 24,
+	"authorId": 1004,
+	"type": "text",
+	"text": "Начался курс по NoSQL, первая лаба уже сдана",
+	"likes": 62,
+	"views": 740,
+	"tags": [
+		"учеба",
+		"mongodb"
+	],
+	"createdAt": {
+		"$date": "2026-09-05T11:42:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ac1"
+	},
+	"postId": 25,
+	"authorId": 1005,
+	"type": "photo",
+	"text": "Питер, крыши, сентябрь",
+	"likes": 618,
+	"views": 9240,
+	"tags": [
+		"фото",
+		"путешествия"
+	],
+	"createdAt": {
+		"$date": "2026-09-06T16:20:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ac2"
+	},
+	"postId": 26,
+	"authorId": 1002,
+	"type": "video",
+	"text": "Таймлапс как рисую иконки для приложения",
+	"likes": 334,
+	"views": 5760,
+	"tags": [
+		"дизайн",
+		"работа"
+	],
+	"createdAt": {
+		"$date": "2026-09-08T18:30:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ac3"
+	},
+	"postId": 27,
+	"authorId": 1001,
+	"type": "text",
+	"text": "Ищем Go разработчика в команду платежей, пишите в личку",
+	"likes": 145,
+	"views": 4890,
+	"tags": [
+		"работа",
+		"it",
+		"карьера"
+	],
+	"createdAt": {
+		"$date": "2026-09-10T07:00:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ac4"
+	},
+	"postId": 28,
+	"authorId": 1003,
+	"type": "photo",
+	"text": "Рабочее место после переезда в новый офис",
+	"likes": 88,
+	"views": 1340,
+	"tags": [
+		"работа",
+		"фото"
+	],
+	"createdAt": {
+		"$date": "2026-09-12T10:55:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ac5"
+	},
+	"postId": 29,
+	"authorId": 1008,
+	"type": "text",
+	"text": "Кто знает хорошие курсы по SQL для начинающих?",
+	"likes": 31,
+	"views": 460,
+	"tags": [
+		"учеба",
+		"it"
+	],
+	"createdAt": {
+		"$date": "2026-09-15T14:08:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ac6"
+	},
+	"postId": 30,
+	"authorId": 1006,
+	"type": "text",
+	"text": "Охваты упали на 30% после обновления алгоритма. У кого так же?",
+	"likes": 167,
+	"views": 2890,
+	"tags": [
+		"маркетинг",
+		"работа"
+	],
+	"createdAt": {
+		"$date": "2026-09-17T09:26:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ac7"
+	},
+	"postId": 31,
+	"authorId": 1007,
+	"type": "link",
+	"text": "Сделал пет-проект: трекер привычек на Svelte",
+	"likes": 129,
+	"views": 2010,
+	"tags": [
+		"frontend",
+		"it"
+	],
+	"createdAt": {
+		"$date": "2026-09-20T17:51:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ac8"
+	},
+	"postId": 32,
+	"authorId": 1003,
+	"type": "video",
+	"text": "Как мы мониторим 200 сервисов: короткое видео про Grafana",
+	"likes": 372,
+	"views": 5430,
+	"tags": [
+		"devops",
+		"it",
+		"работа"
+	],
+	"createdAt": {
+		"$date": "2026-09-24T12:14:00Z"
+	}
+}]
+

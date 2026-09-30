@@ -1,0 +1,181 @@
+[{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ac9"
+	},
+	"commentId": 1,
+	"postId": 11,
+	"userId": 1001,
+	"text": "Подписываюсь под каждым словом",
+	"createdAt": {
+		"$date": "2026-08-17T08:40:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00aca"
+	},
+	"commentId": 2,
+	"postId": 11,
+	"userId": 1008,
+	"text": "А где брать код коллег если я еще не работаю?)",
+	"createdAt": {
+		"$date": "2026-08-17T09:12:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00acb"
+	},
+	"commentId": 3,
+	"postId": 11,
+	"userId": 1007,
+	"text": "Опенсорс на гитхабе тоже подойдет",
+	"createdAt": {
+		"$date": "2026-08-17T09:30:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00acc"
+	},
+	"commentId": 4,
+	"postId": 2,
+	"userId": 1004,
+	"text": "Красота! Сколько ехать от Алматы?",
+	"createdAt": {
+		"$date": "2026-08-04T07:15:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00acd"
+	},
+	"commentId": 5,
+	"postId": 2,
+	"userId": 1006,
+	"text": "Хочу туда же",
+	"createdAt": {
+		"$date": "2026-08-04T08:02:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ace"
+	},
+	"commentId": 6,
+	"postId": 4,
+	"userId": 1003,
+	"text": "Используем, но resume token надо хранить самим",
+	"createdAt": {
+		"$date": "2026-08-06T16:00:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00acf"
+	},
+	"commentId": 7,
+	"postId": 22,
+	"userId": 1002,
+	"text": "Поздравляю!!",
+	"createdAt": {
+		"$date": "2026-09-02T09:40:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ad0"
+	},
+	"commentId": 8,
+	"postId": 22,
+	"userId": 1001,
+	"text": "Отличное время",
+	"createdAt": {
+		"$date": "2026-09-02T10:11:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ad1"
+	},
+	"commentId": 9,
+	"postId": 21,
+	"userId": 1001,
+	"text": "Забрал себе, спасибо",
+	"createdAt": {
+		"$date": "2026-09-01T09:20:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ad2"
+	},
+	"commentId": 10,
+	"postId": 25,
+	"userId": 1002,
+	"text": "На что снимал?",
+	"createdAt": {
+		"$date": "2026-09-06T17:00:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ad3"
+	},
+	"commentId": 11,
+	"postId": 25,
+	"userId": 1003,
+	"text": "Легально на крышу попал?)",
+	"createdAt": {
+		"$date": "2026-09-06T17:45:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ad4"
+	},
+	"commentId": 12,
+	"postId": 29,
+	"userId": 1004,
+	"text": "Stepik, курс Интерактивный тренажер по SQL",
+	"createdAt": {
+		"$date": "2026-09-15T14:30:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ad5"
+	},
+	"commentId": 13,
+	"postId": 29,
+	"userId": 1001,
+	"text": "sql-ex.ru, старый но рабочий",
+	"createdAt": {
+		"$date": "2026-09-15T15:02:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ad6"
+	},
+	"commentId": 14,
+	"postId": 18,
+	"userId": 1007,
+	"text": "Shift+Cmd+E",
+	"createdAt": {
+		"$date": "2026-08-27T07:50:00Z"
+	}
+},
+{
+	"_id": {
+		"$oid": "6abcbbc37061943ac8a00ad7"
+	},
+	"commentId": 15,
+	"postId": 27,
+	"userId": 1003,
+	"text": "Какая вилка?",
+	"createdAt": {
+		"$date": "2026-09-10T07:35:00Z"
+	}
+}]
+
