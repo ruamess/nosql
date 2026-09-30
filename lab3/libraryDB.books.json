@@ -1,0 +1,309 @@
+[{
+	"_id": {
+		"$oid": "6abcb71fde0e6afef6a00aa1"
+	},
+	"bookId": 301,
+	"title": "Мастер и Маргарита",
+	"author": "Михаил Булгаков",
+	"language": "ru",
+	"year": 2015,
+	"pages": 480,
+	"rating": 4.8,
+	"copies": 4,
+	"available": true,
+	"addedAt": {
+		"$date": "2024-09-12T00:00:00Z"
+	},
+	"publisher": {
+		"name": "АСТ",
+		"city": "Москва"
+	},
+	"genres": [
+		"роман",
+		"классика",
+		"мистика"
+	]
+},
+{
+	"_id": {
+		"$oid": "6abcb720de0e6afef6a00aa2"
+	},
+	"bookId": 302,
+	"title": "Преступление и наказание",
+	"author": "Фёдор Достоевский",
+	"language": "ru",
+	"year": 2021,
+	"pages": 608,
+	"rating": 4.6,
+	"copies": 3,
+	"available": true,
+	"addedAt": {
+		"$date": "2024-09-12T00:00:00Z"
+	},
+	"publisher": {
+		"name": "Эксмо",
+		"city": "Москва"
+	},
+	"genres": [
+		"роман",
+		"классика"
+	]
+},
+{
+	"_id": {
+		"$oid": "6abcb720de0e6afef6a00aa3"
+	},
+	"bookId": 303,
+	"title": "Чистый код",
+	"author": "Роберт Мартин",
+	"language": "ru",
+	"year": 2019,
+	"pages": 464,
+	"rating": 4.8,
+	"copies": 3,
+	"available": true,
+	"addedAt": {
+		"$date": "2024-10-03T00:00:00Z"
+	},
+	"publisher": {
+		"name": "Питер",
+		"city": "Санкт-Петербург"
+	},
+	"genres": [
+		"программирование",
+		"учебная"
+	],
+	"shelf": "IT-2"
+},
+{
+	"_id": {
+		"$oid": "6abcb720de0e6afef6a00aa4"
+	},
+	"bookId": 304,
+	"title": "Грокаем алгоритмы",
+	"author": "Адитья Бхаргава",
+	"language": "ru",
+	"year": 2022,
+	"pages": 288,
+	"rating": 4.5,
+	"copies": 7,
+	"available": true,
+	"addedAt": {
+		"$date": "2025-02-18T00:00:00Z"
+	},
+	"publisher": {
+		"name": "Питер",
+		"city": "Санкт-Петербург"
+	},
+	"genres": [
+		"программирование",
+		"алгоритмы",
+		"учебная"
+	],
+	"shelf": "IT-2"
+},
+{
+	"_id": {
+		"$oid": "6abcb720de0e6afef6a00aa5"
+	},
+	"bookId": 305,
+	"title": "Абай жолы",
+	"author": "Мұхтар Әуезов",
+	"language": "kk",
+	"year": 2018,
+	"pages": 736,
+	"rating": 4.9,
+	"copies": 2,
+	"available": true,
+	"addedAt": {
+		"$date": "2024-09-12T00:00:00Z"
+	},
+	"publisher": {
+		"name": "Жазушы",
+		"city": "Алматы"
+	},
+	"genres": [
+		"роман",
+		"классика",
+		"исторический"
+	]
+},
+{
+	"_id": {
+		"$oid": "6abcb720de0e6afef6a00aa6"
+	},
+	"bookId": 306,
+	"title": "Кочевники",
+	"author": "Ильяс Есенберлин",
+	"language": "ru",
+	"year": 2019,
+	"pages": 928,
+	"rating": 4.7,
+	"copies": 1,
+	"available": true,
+	"addedAt": {
+		"$date": "2024-11-25T00:00:00Z"
+	},
+	"publisher": {
+		"name": "Жазушы",
+		"city": "Алматы"
+	},
+	"genres": [
+		"роман",
+		"исторический"
+	]
+},
+{
+	"_id": {
+		"$oid": "6abcb720de0e6afef6a00aa7"
+	},
+	"bookId": 307,
+	"title": "Гарри Поттер и философский камень",
+	"author": "Джоан Роулинг",
+	"language": "ru",
+	"year": 2014,
+	"pages": 432,
+	"rating": 4.8,
+	"copies": 6,
+	"available": true,
+	"addedAt": {
+		"$date": "2024-09-12T00:00:00Z"
+	},
+	"publisher": {
+		"name": "Махаон",
+		"city": "Москва"
+	},
+	"genres": [
+		"фэнтези",
+		"детская"
+	]
+},
+{
+	"_id": {
+		"$oid": "6abcb720de0e6afef6a00aa8"
+	},
+	"bookId": 308,
+	"title": "Sapiens. Краткая история человечества",
+	"author": "Юваль Ной Харари",
+	"language": "ru",
+	"year": 2016,
+	"pages": 520,
+	"rating": 4.4,
+	"copies": 3,
+	"available": true,
+	"addedAt": {
+		"$date": "2025-01-14T00:00:00Z"
+	},
+	"publisher": {
+		"name": "Синдбад",
+		"city": "Москва"
+	},
+	"genres": [
+		"нон-фикшн",
+		"история"
+	]
+},
+{
+	"_id": {
+		"$oid": "6abcb720de0e6afef6a00aa9"
+	},
+	"bookId": 309,
+	"title": "Совершенный код",
+	"author": "Стив Макконнелл",
+	"language": "ru",
+	"year": 2017,
+	"pages": 896,
+	"rating": 4.6,
+	"copies": 1,
+	"available": true,
+	"addedAt": {
+		"$date": "2024-10-03T00:00:00Z"
+	},
+	"publisher": {
+		"name": "Русская редакция",
+		"city": "Москва"
+	},
+	"genres": [
+		"программирование",
+		"учебная"
+	]
+},
+{
+	"_id": {
+		"$oid": "6abcb720de0e6afef6a00aaa"
+	},
+	"bookId": 310,
+	"title": "Три товарища",
+	"author": "Эрих Мария Ремарк",
+	"language": "ru",
+	"year": 2013,
+	"pages": 384,
+	"rating": 4.7,
+	"copies": 4,
+	"available": true,
+	"addedAt": {
+		"$date": "2024-09-12T00:00:00Z"
+	},
+	"publisher": {
+		"name": "АСТ",
+		"city": "Москва"
+	},
+	"genres": [
+		"роман",
+		"классика"
+	]
+},
+{
+	"_id": {
+		"$oid": "6abcb720de0e6afef6a00aab"
+	},
+	"bookId": 311,
+	"title": "Изучаем Python",
+	"author": "Эрик Мэтиз",
+	"language": "ru",
+	"year": 2023,
+	"pages": 512,
+	"rating": 4.5,
+	"copies": 3,
+	"available": true,
+	"addedAt": {
+		"$date": "2025-09-05T00:00:00Z"
+	},
+	"publisher": {
+		"name": "Питер",
+		"city": "Санкт-Петербург"
+	},
+	"genres": [
+		"программирование",
+		"учебная"
+	],
+	"shelf": "IT-2"
+},
+{
+	"_id": {
+		"$oid": "6abcb720de0e6afef6a00aad"
+	},
+	"bookId": 313,
+	"title": "1984",
+	"author": "Джордж Оруэлл",
+	"language": "ru",
+	"year": 2022,
+	"pages": 320,
+	"rating": 4.6,
+	"copies": 5,
+	"available": true,
+	"addedAt": {
+		"$date": "2025-02-18T00:00:00Z"
+	},
+	"publisher": {
+		"name": "АСТ",
+		"city": "Москва"
+	},
+	"genres": [
+		"роман",
+		"антиутопия",
+		"классика",
+		"фантастика"
+	]
+}]
+
