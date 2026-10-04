@@ -1,0 +1,116 @@
+# проверка
+PING
+SET lab5:test "Redis works"
+GET lab5:test
+DEL lab5:test
+
+# кэш книг
+HSET cache:book:301 book_id 301 title "Мастер и Маргарита" author "Михаил Булгаков" category "роман" year 2015 shelf "A-04"
+EXPIRE cache:book:301 600
+HSET cache:book:303 book_id 303 title "Чистый код" author "Роберт Мартин" category "программирование" year 2019 shelf "C-11"
+EXPIRE cache:book:303 600
+HSET cache:book:304 book_id 304 title "Грокаем алгоритмы" author "Адитья Бхаргава" category "программирование" year 2022 shelf "C-11"
+EXPIRE cache:book:304 600
+HSET cache:book:305 book_id 305 title "Абай жолы" author "Мухтар Ауэзов" category "роман" year 2018 shelf "A-12"
+EXPIRE cache:book:305 600
+SET cache:book:303:available 2 EX 30
+
+# сессии
+HSET session:s001 user_id 1001 role reader language ru last_section catalog
+EXPIRE session:s001 1800
+HSET session:s002 user_id 1002 role reader language kk last_section book:305
+EXPIRE session:s002 1800
+HSET session:s003 user_id 501 role librarian language ru last_section returns
+EXPIRE session:s003 900
+
+# счетчики просмотров
+SET book:301:views 0
+INCR book:301:views
+INCR book:301:views
+INCR book:301:views
+INCR book:301:views
+SET book:303:views 0
+INCR book:303:views
+INCR book:303:views
+SET book:305:views 0
+INCR book:305:views
+
+# кто онлайн
+SADD online:library reader:1001 reader:1002 reader:1004 librarian:501
+
+# последние просмотренные книги
+LPUSH recent:reader:1001 book:305
+LPUSH recent:reader:1001 book:304
+LPUSH recent:reader:1001 book:303
+LPUSH recent:reader:1001 book:301
+LPUSH recent:reader:1002 book:305
+LPUSH recent:reader:1002 book:301
+
+# запросы
+HGETALL cache:book:301
+HGET cache:book:303 shelf
+TTL cache:book:301
+HGETALL session:s001
+TTL session:s001
+TTL session:s003
+LRANGE recent:reader:1001 0 4
+LTRIM recent:reader:1001 0 4
+SMEMBERS online:library
+SCARD online:library
+GET cache:book:303:available
+
+# изменение языка в сессии
+HSET session:s001 language kk
+HGET session:s001 language
+TTL session:s001
+
+# читатель вышел
+SREM online:library reader:1002
+SCARD online:library
+
+# завершение сессии
+EXISTS session:s003
+TYPE session:s003
+DEL session:s003
+EXISTS session:s003
+
+# аналитика - просмотры книги
+INCR book:301:views
+GET book:301:views
+
+# проверка TTL
+SET cache:ttl-demo "temporary" EX 20
+TTL cache:ttl-demo
+TTL cache:ttl-demo
+GET cache:ttl-demo
+TTL cache:ttl-demo
+EXISTS cache:ttl-demo
+
+# инвалидирование: книгу 305 переставили на другую полку
+HGET cache:book:305 shelf
+EXISTS cache:book:305
+DEL cache:book:305
+EXISTS cache:book:305
+HGETALL cache:book:305
+HSET cache:book:305 book_id 305 title "Абай жолы" author "Мухтар Ауэзов" category "роман" year 2018 shelf "B-03"
+EXPIRE cache:book:305 600
+HGET cache:book:305 shelf
+
+# перезапись ключа и TTL
+SET lab5:ttl "first" EX 120
+TTL lab5:ttl
+SET lab5:ttl "second"
+TTL lab5:ttl
+SET lab5:ttl "third" EX 120
+SET lab5:ttl "fourth" KEEPTTL
+GET lab5:ttl
+TTL lab5:ttl
+DEL lab5:ttl
+
+# проверка типов
+TYPE cache:book:301
+TYPE session:s001
+TYPE book:301:views
+TYPE recent:reader:1001
+TYPE online:library
+KEYS *
