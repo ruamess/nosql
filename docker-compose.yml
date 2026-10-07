@@ -11,5 +11,13 @@ services:
     ports:
       - "127.0.0.1:6379:6379"
 
+  cassandra:
+    image: cassandra:5.0
+    ports:
+      - "127.0.0.1:9042:9042"
+    environment:
+      - MAX_HEAP_SIZE=1G
+      - HEAP_NEWSIZE=200M
+
 volumes:
   mongo_data:
